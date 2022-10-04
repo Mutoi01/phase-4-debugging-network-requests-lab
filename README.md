@@ -64,10 +64,16 @@ developing your own process.
 
   - How I debugged:
 
+  I got a 505 status error code soI fixed the controller create action. The error was because Toys constant did not exist.
+
 - Update the number of likes for a toy
 
   - How I debugged:
+  added a custom route in the routes.rb file
+  added an incement_likes action
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  I added a destroy route in the routes.rb file
